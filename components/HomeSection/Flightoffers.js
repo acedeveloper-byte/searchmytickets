@@ -13,7 +13,7 @@ const Flightoffers = () => {
                     <div class="position-relative">
                       <div class="offers-pic">
                         <img
-                          src="assets/img/flt-3.png"
+                          src="/img/flt-3.png"
                           class="img-fluid rounded"
                           width="150"
                           alt=""
@@ -47,7 +47,7 @@ const Flightoffers = () => {
                     <div class="position-relative">
                       <div class="offers-pic">
                         <img
-                          src="assets/img/goibibo.png"
+                          src="/img/goibibo.png"
                           class="img-fluid rounded"
                           width="150"
                           alt=""
@@ -81,7 +81,7 @@ const Flightoffers = () => {
                     <div class="position-relative">
                       <div class="offers-pic">
                         <img
-                          src="assets/img/flt-2.png"
+                          src="/img/flt-2.png"
                           class="img-fluid rounded"
                           width="150"
                           alt=""
@@ -115,7 +115,7 @@ const Flightoffers = () => {
                     <div class="position-relative">
                       <div class="offers-pic">
                         <img
-                          src="assets/img/flt-1.png"
+                          src="/img/flt-1.png"
                           class="img-fluid rounded"
                           width="150"
                           alt=""

@@ -1,27 +1,4 @@
-@charset "UTF-8";
-/*
-* Theme Name: GeoTrip - Tour & Travel Agency HTML Template
-* Author: Themez Hub
-* Version: 1.0.0
-* Last Change: 26 Oct 2023
-  Author URI    : http://www.Themezhub.com/
 
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-
-** - Common Elentns 
-** - Default Style
-** - Navbar & Header Styles
-** - Intro Banner & Hero Header
-** - GeoTrip Elements Styles
-** - Footer Style
-** - Responsiveness Start
-*/
-/*--------------------------------------------------
-Default Style
----------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&amp;display=swap");
 :root,
 [data-bs-theme=light] {
@@ -72,6 +49,7 @@ Default Style
 .dark #preloader {
   background-color: #232323;
 }
+
 
 /*-------------- Not Use -----------
 #preloader {

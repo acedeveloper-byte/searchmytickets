@@ -3,7 +3,7 @@ import React from "react";
 const Recentblogs = () => {
   return (
     <>
-      <section class="pt-0">
+      <section class="pt-0 mt-5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">

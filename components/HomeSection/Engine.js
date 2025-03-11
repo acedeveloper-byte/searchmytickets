@@ -1,12 +1,17 @@
-import React from "react";
-
+'use client'
+import React, { useState } from "react";
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 const Engine = () => {
+
+  const [active, setActive] = useState("flights")
+
   return (
     <>
       <div
         class="image-cover hero-header bg-white"
-        style={{ background: "url('assets/img/17125.jpg')no-repeat" }}
+        style={{ background: "url('/img/17125.jpg')no-repeat" }}
         data-overlay="5"
       >
         <div class="container">
@@ -28,35 +33,39 @@ const Engine = () => {
                   id="tour-pills-tab"
                   role="tablist"
                 >
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
+                  <li class="nav-item cursor-pointer">
+                    <span
+                      class={active === "hotels" ? "nav-link active" : "nav-link"}
                       data-bs-toggle="tab"
-                      href="#hotels"
+                      onClick={() => setActive("hotels")}
                     >
                       <i class="fa-solid fa-hotel me-2"></i>Hotels
-                    </a>
+                    </span>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#flights">
+                  <li class="nav-item cursor-pointer">
+                    <span class={active === "flights" ? "nav-link active" : "nav-link"}
+                      data-bs-toggle="tab" onClick={() => setActive("flights")}>
                       <i class="fa-solid fa-jet-fighter me-2"></i>Flights
-                    </a>
+                    </span>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#tours">
+                  <li class="nav-item cursor-pointer">
+                    <span class={active === "tour" ? "nav-link active" : "nav-link"}
+                      data-bs-toggle="tab" onClick={() => setActive("tour")}>
                       <i class="fa-solid fa-globe me-2"></i>Tour
-                    </a>
+                    </span>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#cabs">
+                  <li class="nav-item cursor-pointer">
+                    <span class={active === "cab" ? "nav-link active" : "nav-link"}
+                      data-bs-toggle="tab" onClick={() => setActive("cab")}>
                       <i class="fa-solid fa-car me-2"></i>Cab
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </div>
               <div class="search-wrap bg-transparents rounded-3 p-3">
                 <div class="tab-content">
-                  <div class="tab-pane show active" id="hotels">
+                  <div class={active === "hotels" ? "tab-pane show active" : "tab-pane"}
+                    id="hotels">
                     <div class="row gy-2 gx-md-2 gx-sm-2">
                       <div class="col-xl-8 col-lg-7 col-md-12">
                         <div class="row gy-3 gx-md-2 gx-sm-2">
@@ -172,7 +181,8 @@ const Engine = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane" id="flights">
+                  <div class={active === "flights" ? "tab-pane show active" : "tab-pane"}
+                    id="flights">
                     <div class="row gx-lg-2 g-3">
                       <div class="col-xl-5 col-lg-5 col-md-12">
                         <div class="row gy-3 gx-lg-2 gx-3">
@@ -264,7 +274,8 @@ const Engine = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane" id="tours">
+                  <div class={active === "tour" ? "tab-pane show active" : "tab-pane"}
+                    id="tours">
                     <div class="row gy-3 gx-md-2 gx-sm-2">
                       <div class="col-xl-8 col-lg-7 col-md-12">
                         <div class="row gy-3 gx-md-2 gx-sm-2">
@@ -324,7 +335,8 @@ const Engine = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="tab-pane" id="cabs">
+                  <div class={active === "cab" ? "tab-pane show active" : "tab-pane"}
+                    id="cabs">
                     <div class="row gy-3 gx-md-2 gx-sm-2">
                       <div class="col-xl-8 col-lg-7 col-md-12">
                         <div class="row gy-3 gx-md-2 gx-sm-2">

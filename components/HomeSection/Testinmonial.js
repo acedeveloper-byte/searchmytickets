@@ -5,7 +5,7 @@ const Testinmonial = () => {
     <div>
       <section
         class="gray-simple bg-cover"
-        style={{ background: "url(assets/img/reviewbg.png)no-repeat;" }}
+        style={{ background: "url(/img/reviewbg.png)no-repeat;" }}
       >
         <div class="container">
           <div class="row align-items-center justify-content-center">
@@ -32,7 +32,7 @@ const Testinmonial = () => {
                   <div class="d-flex align-items-center flex-thumbes">
                     <div class="revws-pic">
                       <img
-                        src="assets/img/team-1.jpg"
+                        src="/img/team-1.jpg"
                         class="img-fluid rounded-2"
                         width="80"
                         alt=""
@@ -79,7 +79,7 @@ const Testinmonial = () => {
                   <div class="d-flex align-items-center flex-thumbes">
                     <div class="revws-pic">
                       <img
-                        src="assets/img/team-2.jpg"
+                        src="/img/team-2.jpg"
                         class="img-fluid rounded-2"
                         width="80"
                         alt=""
@@ -126,7 +126,7 @@ const Testinmonial = () => {
                   <div class="d-flex align-items-center flex-thumbes">
                     <div class="revws-pic">
                       <img
-                        src="assets/img/team-3.jpg"
+                        src="/img/team-3.jpg"
                         class="img-fluid rounded-2"
                         width="80"
                         alt=""
@@ -173,7 +173,7 @@ const Testinmonial = () => {
                   <div class="d-flex align-items-center flex-thumbes">
                     <div class="revws-pic">
                       <img
-                        src="assets/img/team-4.jpg"
+                        src="/img/team-4.jpg"
                         class="img-fluid rounded-2"
                         width="80"
                         alt=""
@@ -220,7 +220,7 @@ const Testinmonial = () => {
                   <div class="d-flex align-items-center flex-thumbes">
                     <div class="revws-pic">
                       <img
-                        src="assets/img/team-5.jpg"
+                        src="/img/team-5.jpg"
                         class="img-fluid rounded-2"
                         width="80"
                         alt=""

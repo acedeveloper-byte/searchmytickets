@@ -80,12 +80,12 @@ const Topdestination = () => {
             <div className="col-xl-12 col-lg-12 col-md-12 p-0 position-relative">
               <Slider {...settings} className="main-carousel cols-4 dots-full">
                 {[
-                  { city: "San Jose", img: "assets/img/city/c-8.png" },
-                  { city: "Houston", img: "assets/img/city/c-7.png" },
-                  { city: "San Francisco", img: "assets/img/city/c-6.png" },
-                  { city: "San Diego", img: "assets/img/city/c-4.png" },
-                  { city: "Los Angeles", img: "assets/img/city/ct-12.png" },
-                  { city: "New Orleans", img: "assets/img/city/ct-9.png" },
+                  { city: "San Jose", img: "/img/city/c-8.png" },
+                  { city: "Houston", img: "/img/city/c-7.png" },
+                  { city: "San Francisco", img: "/img/city/c-6.png" },
+                  { city: "San Diego", img: "/img/city/c-4.png" },
+                  { city: "Los Angeles", img: "/img/city/ct-12.png" },
+                  { city: "New Orleans", img: "/img/city/ct-9.png" },
                 ].map((item, index) => (
                   <div className="carousel-cell" key={index}>
                     <div className="cardCities cursor rounded-2">
